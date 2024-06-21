@@ -38,7 +38,7 @@ func announce(c *fiber.Ctx) error {
 	if err != nil {
 		return err
 	}
-	req.IP = c.IP()
+	//req.IP = c.IP()
 	if req.Numwant == 0 {
 		req.Numwant = 30
 	}
